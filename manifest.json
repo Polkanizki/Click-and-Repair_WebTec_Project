@@ -1,8 +1,21 @@
 {
     "short_name": "Click&Repair",
     "name": "Click and Repair",
+    "description": "PWA - Project for Web Tecnology Course",
     "start_url": ".",
     "display": "standalone",
     "theme_color": "#212529",
-    "background_color": "#F2FCFE"
+    "background_color": "#F2FCFE",
+    "icons": [
+        {
+            "src": "logo_192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "logo_512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
 }
