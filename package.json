@@ -1,0 +1,22 @@
+{
+  "name": "click-and-repair_webtec_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cesarioangelino001/Click-and-Repair_WebTec_Project.git"
+  },
+  "author": "polkanizki",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/cesarioangelino001/Click-and-Repair_WebTec_Project/issues"
+  },
+  "homepage": "https://github.com/cesarioangelino001/Click-and-Repair_WebTec_Project#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.0-alpha1"
+  }
+}
