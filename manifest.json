@@ -1,15 +1,8 @@
 {
-    "name": "Click and Repair",
     "short_name": "Click&Repair",
-    "start_url": "",
-    "background_color": "#F2FCFE",
-    "theme_color": "#212529",
+    "name": "Click and Repair",
+    "start_url": ".",
     "display": "standalone",
-    "icons": [
-        {
-            "src": "images/logo.png",
-            "sizes": "339x339",
-            "type": "image/png"
-        }
-    ]
+    "theme_color": "#212529",
+    "background_color": "#F2FCFE"
 }
