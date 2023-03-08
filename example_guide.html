@@ -22,15 +22,6 @@
         <script src="bootstrap/dist/js/bootstrap.bundle.js"></script>
         <script src="index.js"></script>
 
-        <!--Sidebar-->
-        <script>
-             $(document).ready(function() {
-                $(".navbar-toggle").click(function () {
-                    $(".navbar-collapse").toggle();
-                });
-            });
-        </script>
-
     </head>
     <body>
         <!--Topbar-->
@@ -75,11 +66,11 @@
                 <div class="offcanvas-body">
                     <p>Qui verranno salvate le tue guide da leggere più tardi</p>
                     <hr>
-                    <ul>
-                        <li>
+                    <ul class="list-group d-none d-md-block d-lg-none">
+                        <li class="list-group-item">
                             <a href="https://google.it">Prova 1</a>
                         </li>
-                        <li>
+                        <li class="list-group-item">
                             <a href="https://wikipedia.org">Prova 2</a>
                         </li>
                     </ul>
