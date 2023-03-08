@@ -43,7 +43,7 @@
 
                     <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
                         <li><a href="main.html" class="nav-link px-2 link-light">Home</a></li>
-                        <button class="btn btn-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Le tue Liste</button>
+                        <button class="btn btn-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Le tue guide</button>
                     </ul>
 
                     <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
@@ -67,13 +67,22 @@
         <div class="d-flex">
 
             <!--Sidebar-->
-            <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+            <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
                 <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Le tue liste</h5>
-                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Le tue guide</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
-                    <p>Qui verranno mostrate le tue guide da leggere più tardi</p>
+                    <p>Qui verranno salvate le tue guide da leggere più tardi</p>
+                    <hr>
+                    <ul>
+                        <li>
+                            <a href="https://google.it">Prova 1</a>
+                        </li>
+                        <li>
+                            <a href="https://wikipedia.org">Prova 2</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
 
@@ -83,8 +92,19 @@
                     <h1 class="p-3 ms-5">Come cambiare alimentatore</h1>
                     <h6 class="text-muted mx-3">A cura di <a href="https://t.me/polkanizki">Polkanizki</a> </h6>
                 </div>
+
+                <!--Detail-->
+                <div class="container-fluid rounded d-flex flex-column bg-dark text-light">
+                    <span class="navbar-text">
+                        Livello: [lvl] ALTO | Passi: [num] | Lingua: ITA[flag]
+                    </span>
+                    <span class="navbar-text">
+                        Creato da: [propic] [author] | Richiesto: [item1], [item2] + altri 8
+                    </span>
+                </div>
+
                 <hr>
-                <div class="container-sm">
+                <div class="container-fluid">
                     <div id="carouselExample" class="carousel slide">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
@@ -110,18 +130,6 @@
             </div>
 
         </div>
-
-        <!--Detail bar-->
-        <nav class="navbar fixed-bottom navbar-dark bg-dark">
-            <div class="container-fluid d-flex flex-column">
-                <span class="navbar-text">
-                    Livello: [lvl] ALTO | Passi: [num] | Lingua: ITA[flag]
-                </span>
-                <span class="navbar-text">
-                    Creato da: [propic] [author] | Richiesto: [item1], [item2] + altri 8
-                </span>
-            </div>
-        </nav>
 
     </body>
 </html>
